@@ -6,6 +6,9 @@ public class Department {
     int managerId;
 
     public Department() {
+        this.departmentId = 0;
+        this.departmentName = "no-department";
+        this.managerId = 0;
     }
 
     public Department(int departmentId, String departmentName, int managerId) {
